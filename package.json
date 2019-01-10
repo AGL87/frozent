@@ -1,0 +1,46 @@
+{
+  "name": "frozent",
+  "main": "./lib/frozent",
+  "version": "0.0.1",
+  "description": "Frozent transform Atom editor to Pro EDI",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "configSchema": {
+    "msvc": {
+      "type": "string",
+      "default": "Not found",
+      "title": "MSVC root path"
+    },
+    "cygwin": {
+      "type": "string",
+      "default": "Not found",
+      "title": "CygWin root path"
+    },
+    "mingw": {
+      "type": "string",
+      "default": "Not found",
+      "title": "MinGW root path"
+    },
+    "xcode": {
+      "type": "string",
+      "default": "Not found",
+      "title": "Xcode tools root path"
+    },
+    "clang": {
+      "type": "string",
+      "default": "Not found",
+      "title": "Clang root path"
+    },
+    "gnu": {
+      "type": "string",
+      "default": "Not found",
+      "title": "Gnu root path"
+    }
+  }
+}

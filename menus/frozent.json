@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle frozent",
+        "command": "frozent:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "frozent",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "frozent:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
